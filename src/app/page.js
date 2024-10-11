@@ -21,12 +21,12 @@ export default function Home() {
             to craft delectable cakes, ranging from classic flavors to unique,
             custom creations. From rich chocolate indulgence to light and fluffy
             sponge cakes, every cake is baked with precision and love. Whether
-            you're celebrating a special occasion, ordering for delivery, or
-            catering an event, we ensure every cake is a work of art, designed
-            to bring sweetness and joy to your moment.
+            you&apos;re celebrating a special occasion, ordering for delivery,
+            or catering an event, we ensure every cake is a work of art,
+            designed to bring sweetness and joy to your moment.
           </p>
           <p>
-            Every cake is baked with precision and love. Whether you're
+            Every cake is baked with precision and love. Whether you&apos;re
             celebrating a special occasion, ordering for delivery, or catering
             an event, we ensure every cake is a work of art, designed to bring
             sweetness and joy to your moment.
@@ -38,7 +38,7 @@ export default function Home() {
         id="contact"
       >
         <SectionHeaders
-          subHeader={"Don't hesitate"}
+          subHeader={"Don&apos;t hesitate"}
           mainHeader={"Contanct Us"}
         />
         <div className="mt-8">
