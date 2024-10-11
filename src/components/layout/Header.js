@@ -68,7 +68,7 @@ export default function Header() {
           {/* Primary Navigation Links */}
           <nav className="flex items-center gap-8 text-stone-500 font-semibold">
             <Link className="text-primary font-bold text-3xl" href="/">
-              TWIGGYS PIZZA
+              TWIGGYS CAKES
             </Link>
             <Link href="/">Home</Link>
             <Link href="/menu">Menu</Link>

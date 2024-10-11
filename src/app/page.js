@@ -38,7 +38,7 @@ export default function Home() {
         id="contact"
       >
         <SectionHeaders
-          subHeader={"Don&apos;t hesitate"}
+          subHeader={"Dont Hesitate"}
           mainHeader={"Contanct Us"}
         />
         <div className="mt-8">
