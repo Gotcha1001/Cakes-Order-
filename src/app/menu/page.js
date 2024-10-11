@@ -1,12 +1,17 @@
 "use client";
 import SectionHeaders from "@/components/layout/SectionHeaders";
 import MenuItem from "@/components/menu/MenuItem";
+import Spinner from "@/components/Spinner";
 import { useEffect, useState } from "react";
 
 export default function MenuPage() {
   const [categories, setCategories] = useState([]);
   const [menuItems, setMenuItems] = useState([]);
+  const [loading, setLoading] = useState(true);
+
   useEffect(() => {
+    setLoading(true);
+
     fetch("api/categories").then((res) => {
       res.json().then((categories) => {
         setCategories(categories);
@@ -15,9 +20,14 @@ export default function MenuPage() {
     fetch("api/menu-items").then((res) => {
       res.json().then((menuItems) => {
         setMenuItems(menuItems);
+        setLoading(false);
       });
     });
   }, []);
+
+  if (loading) {
+    return <Spinner fullWidth={true} />;
+  }
 
   return (
     <section className="mt-8 gradient-background2 rounded-lg p-4">
