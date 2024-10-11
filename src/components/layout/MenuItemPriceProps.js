@@ -79,12 +79,7 @@ export default function MenuItemPriceProps({
               </div>
             </div>
           ))}
-        <button
-          type="button"
-          onClick={addProp}
-          type="button"
-          className="bg-white"
-        >
+        <button onClick={addProp} type="button" className="bg-white">
           <Plus className="w-4 h-4" />
           <span>{addLabel}</span>
         </button>

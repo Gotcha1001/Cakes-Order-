@@ -13,13 +13,14 @@ export default function Hero() {
           <span className="text-secondary">Cakes</span>
         </h1>
         <p className="my-8 text-stone-200 text-sm text-center">
-          Cakes are the sweet missing piece in people's lives, offering more
-          than just a delicious treat. They mark celebrations, bring comfort,
-          and add joy to everyday moments. Whether it's a slice shared with
-          friends or the centerpiece of a special occasion, cakes have a way of
-          making life a little brighter, reminding us to savor the sweetness of
-          both big and small victories.
+          Cakes are the sweet missing piece in people&apos;s lives, offering
+          more than just a delicious treat. They mark celebrations, bring
+          comfort, and add joy to everyday moments. Whether it&apos;s a slice
+          shared with friends or the centerpiece of a special occasion, cakes
+          have a way of making life a little brighter, reminding us to savor the
+          sweetness of both big and small victories.
         </p>
+
         <div className="flex gap-4 justify-center text-sm">
           <Link href="/menu">
             {" "}
